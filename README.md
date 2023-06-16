@@ -1,5 +1,3 @@
 # dotfiles
-this is my dotfiles
-contains a varoios configuratuion for nvim, zsh, p10k, allacrity
 
-use with caution at your own risk!  
+These are my dotfiles containing various configurations for nvim, zsh, p10k, and alacritty. Please use them with caution and at your own risk.
