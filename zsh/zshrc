@@ -55,15 +55,19 @@ source ~/.bashrc
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-compdef _argocd argocd
-source <(argocd completion zsh)
+#argo completion
+# compdef _argocd argocd
+# source <(argocd completion zsh)
+
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # alias at="alacritty-themes"
 
-alias copy='xclip -selection clipboard'
+# Auto Jump
+autoload -U compinit && compinit -u 
 
+alias copy='xclip -selection clipboard'
 autoload -U +X bashcompinit && bashcompinit
 # complete -o nospace -C /usr/bin/terraform terraform
 
