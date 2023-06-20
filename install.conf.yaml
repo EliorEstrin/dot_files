@@ -6,7 +6,6 @@
 
 - link:
   #    ~/.tmux.conf: tmux.conf
-  #  ~/.vimrc: vimrc
     ~/.config/nvim: nvim 
 
 - create:
