@@ -60,3 +60,6 @@ colors:
     cyan: '#6ae3fa'
     white: '#ffffff'
 theme: Cobalt-2
+font:
+  normal:
+    family: "MesloLGS NF"
