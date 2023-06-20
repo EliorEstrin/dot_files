@@ -5,7 +5,10 @@
 - clean: ['~']
 
 - link:
-  #    ~/.tmux.conf: tmux.conf
+    ~/.alacritty.yml: alacritty.yml
+    ~/.bashrc: dot_bashrc
+    ~/.p10k.zsh: p10k/p10k.zsh
+    ~/.zshrc: zsh/zshrc
     ~/.config/nvim: nvim 
 
 - create:
