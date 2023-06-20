@@ -5,10 +5,15 @@
 - clean: ['~']
 
 - link:
-    ~/.alacritty.yml: alacritty.yml
-    ~/.bashrc: dot_bashrc
+    ~/.alacritty.yml: alacritty/alacritty.yml
+    ~/.bashrc: 
+      path: dot_bashrc
+      force: true
     ~/.p10k.zsh: p10k/p10k.zsh
-    ~/.zshrc: zsh/zshrc
+    ~/.zshrc: 
+      relink: true
+      path: zsh/zshrc
+      force: true
     ~/.config/nvim: nvim 
 
 - create:

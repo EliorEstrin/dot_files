@@ -21,7 +21,7 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 
 ### [aliases] ###
 alias vim="nvim"
-test -f /opt/coreutils/bin/ls && alias ls="/opt/coreutils/bin/ls"
+#test -f /opt/coreutils/bin/ls && alias ls="/opt/coreutils/bin/ls"
 alias clip='xclip -selection clipboard'
 
 # Standard plugins can be found in $ZSH/plugins/
