@@ -14,8 +14,11 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load
-ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+# ZSH_THEME="powerlevel10k/powerlevel10k"
+# POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+# source /home/superman/.oh-my-zsh/custom/themes/powerlevel10/powerlevel10k.zsh-theme
+source /home/superman/dotfiles/zsh/powerlevel10k/powerlevel10k.zsh-theme
+
 
 alias vim="nvim"
 alias ls="/opt/coreutils/bin/ls"
