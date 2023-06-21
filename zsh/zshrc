@@ -23,12 +23,13 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 alias vim="nvim"
 #test -f /opt/coreutils/bin/ls && alias ls="/opt/coreutils/bin/ls"
 alias clip='xclip -selection clipboard'
-
+alias tmux='tmux -u'
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 plugins=(git docker colorize command-not-found emoji fzf zsh-interactive-cd zsh-syntax-highlighting zsh-autosuggestions aws jump autojump kubectl virtualenv helm)
 
 # Some auto completion for devops tools
+source <(helm completion zsh)
 # compdef _argocd argocd
 # source <(argocd completion zsh)
 # autoload -U compinit
