@@ -66,6 +66,8 @@ source ~/.bashrc
 
 # Auto Jump
 autoload -U compinit && compinit -u 
+autoload -U compinit
+compinit -i
 
 alias copy='xclip -selection clipboard'
 autoload -U +X bashcompinit && bashcompinit
