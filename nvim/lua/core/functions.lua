@@ -9,7 +9,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   pattern = '*',
 })
 
--- Git Hub
+-- Git Hub - Lazy Push
 vim.api.nvim_create_user_command("Lazyg", function ()
   local commit_message = vim.fn.input("Commit message: ")
   local current_git_branch = vim.fn.system("git rev-parse --abbrev-ref HEAD")

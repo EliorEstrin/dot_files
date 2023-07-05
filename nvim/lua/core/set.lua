@@ -8,9 +8,14 @@ vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
+-- Reletive number
+vim.o.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
+
+-- Minimum lines down
+vim.opt.scrolloff = 8
 
 -- Sync clipboard between OS and Neovim.
 --  Remove this option if you want your OS clipboard to remain independent.
@@ -22,9 +27,7 @@ vim.o.breakindent = true
 
 -- Save undo history
 vim.o.undofile = true
-
--- Case insensitive searching UNLESS /C or capital in search
-vim.o.ignorecase = true
+-- Case insensitive searching UNLESS /C or capital in search vim.o.ignorecase = true
 vim.o.smartcase = true
 
 -- Keep signcolumn on by default

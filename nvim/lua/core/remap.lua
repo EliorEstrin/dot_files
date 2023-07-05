@@ -2,7 +2,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- Nvim tree
-vim.keymap.set('n', '<C-t>', "<cmd>NvimTreeToggle<cr>", { silent = true })
+vim.keymap.set('n', '<C-t>', vim.cmd.NvimTreeToggle, { silent = true })
 
 -- Disable space Bar deafult funcionality
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
