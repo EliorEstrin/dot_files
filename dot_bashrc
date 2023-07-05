@@ -1,6 +1,3 @@
-# vim: ft=sh
-
-# No brainer, default to Vim
 export EDITOR="vim"
 
 # Color LS output to differentiate between directories and files
@@ -10,10 +7,8 @@ export LSCOLOR=""
 
 # Customize Path
 export PATH=$HOME/bin:$PATH
-# export PATH=$PATH:$HOME/nvm/versions/node/v18.15.0/bin/node
-# export PATH=$PATH:$HOME/nvm/versions/node/v18.15.0/bin
 
-# get current branch in git repo
+#### [[ PS1 CUSTOMIZATION ]] ### 
 function parse_git_branch() {
   BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
   if [ ! "${BRANCH}" == "" ]
@@ -24,7 +19,6 @@ function parse_git_branch() {
     echo ""
   fi
 }
-
 # get current status of git repo
 function parse_git_dirty {
   status=`git status 2>&1 | tee`
@@ -61,4 +55,3 @@ function parse_git_dirty {
 }
 export PS1="\[\e[36m\]\W\[\e[m\]\[\e[32m\]\`parse_git_branch\`\[\e[m\] $ "
 
-#complete -C /usr/bin/terraform terraform
