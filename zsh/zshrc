@@ -27,8 +27,9 @@ alias tmux='tmux -u'
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 plugins=(git docker colorize command-not-found emoji fzf zsh-interactive-cd zsh-syntax-highlighting zsh-autosuggestions aws jump autojump kubectl virtualenv helm)
 
-# Some auto completion for devops tools
-source <(helm completion zsh)
+# Auto Completion #
+# Helm
+command -v helm &> /dev/null && source <(helm completion zsh)
 # compdef _argocd argocd
 # source <(argocd completion zsh)
 # autoload -U compinit

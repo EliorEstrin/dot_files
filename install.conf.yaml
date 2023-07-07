@@ -1,6 +1,7 @@
 - defaults:
     link:
       relink: true
+      force: true
 
 - clean: ['~']
 
@@ -8,12 +9,9 @@
     ~/.alacritty.yml: alacritty/alacritty.yml
     ~/.bashrc: 
       path: dot_bashrc
-      force: true
     ~/.p10k.zsh: p10k/p10k.zsh
     ~/.zshrc: 
-      relink: true
       path: zsh/zshrc
-      force: true
     ~/.config/nvim: nvim 
 
 - create:
