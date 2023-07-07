@@ -65,3 +65,6 @@ bash install
 In order for Powerlevel10k to work properly, you need to set up the fonts as detailed in this guide.
 https://github.com/romkatv/powerlevel10k#fonts
 
+
+### The end
+you should open alacritty terminal and everything should work.
