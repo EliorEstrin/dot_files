@@ -13,15 +13,14 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set name of the theme to load
 ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 
 ### [aliases] ###
 alias vim="nvim"
 #test -f /opt/coreutils/bin/ls && alias ls="/opt/coreutils/bin/ls"
 alias clip='xclip -selection clipboard'
 alias tmux='tmux -u'
+alias copy='xclip -selection clipboard'
 
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -44,13 +43,11 @@ source ~/.bashrc
 # compdef _argocd argocd
 # source <(argocd completion zsh)
 
-
 # Auto Jump
 autoload -U compinit && compinit -u 
 autoload -U compinit
 compinit -i
 
-alias copy='xclip -selection clipboard'
 autoload -U +X bashcompinit && bashcompinit
 # complete -o nospace -C /usr/bin/terraform terraform
 
