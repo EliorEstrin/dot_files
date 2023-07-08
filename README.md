@@ -35,7 +35,6 @@ sudo apt install clang -y
 ### Zsh Custom Plugins
 [autojump:](https://github.com/wting/autojump.git)
 ```
-cd - 
 git clone https://github.com/wting/autojump.git
 cd autojump
 python3 ./install.py
@@ -45,7 +44,7 @@ On a fresh system that contains only python3, run this command to fix autojump b
 sed -i "s/\#\!\/usr\/bin\/env\ python$/\#\!\/usr\/bin\/env\ python3/" ~/.autojump/bin/autojump
 ```
 ### OhMyTmux Installation
-install OhMyTmux:
+install [OhMyTmux](https://github.com/gpakosz/.tmux):
 ```
 cd
 git clone https://github.com/gpakosz/.tmux.git
