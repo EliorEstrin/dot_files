@@ -18,6 +18,13 @@ git clone 'https://github.com/PhantomPixelist/dot_files' && \
 cd dot_files && \ 
 bash fast_install.sh
 ```
+If you get an error simillar to this:
+Linking failed ~/.config/nvim -> /home/elior/dot_files/nvim
+Some links were not successfully set up
+Run This command when you are in the dot_files folder and it should work:
+```
+bash install
+```
 
 OR run manually the commands:
 
