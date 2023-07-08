@@ -20,16 +20,14 @@ sudo apt install build-essential -y
 sudo apt install clang -y
 
 # Zsh Custom Plugins
-pushd
 git clone https://github.com/wting/autojump.git
 cd autojump
 python3 ./install.py
 # Fix autojump bug
 sed -i "s/\#\!\/usr\/bin\/env\ python$/\#\!\/usr\/bin\/env\ python3/" ~/.autojump/bin/autojump
-popd
 
 # OhMyTmux Installation
-pushd
+pushd ~
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
