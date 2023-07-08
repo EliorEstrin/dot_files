@@ -11,7 +11,7 @@ sudo apt install alacritty -y
 sudo apt install zsh -y 
 
 # OhMyZsh and Powerlevel10k Setup
-CHSH=no # do not change shell
+export RUNZSH=no
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
