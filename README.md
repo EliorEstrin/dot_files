@@ -28,7 +28,7 @@ Run This command when you are in the dot_files folder and it should work:
 bash install
 ```
 
-OR run manually the commands:
+Another option to install is by running manually the commands:
 
 ### Basic Software Installation
 ```
