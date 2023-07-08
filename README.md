@@ -14,7 +14,6 @@ Here is the process of configuring a **new** ubuntu system The way I like it:
 **Note**: Execute with caution. Installation is performed at your own risk.
 
 ```
-apt install git -y &&  \
 git clone 'https://github.com/PhantomPixelist/dot_files' && \
 cd dot_files && \ 
 bash fast_install.sh
