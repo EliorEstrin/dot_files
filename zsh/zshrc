@@ -26,22 +26,13 @@ alias copy='xclip -selection clipboard'
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 plugins=(git docker colorize command-not-found emoji fzf zsh-interactive-cd zsh-syntax-highlighting zsh-autosuggestions aws jump autojump kubectl virtualenv helm)
 
-# Auto Completion #
-# Helm
+### [[ Auto Completion ]] ###
 command -v helm &> /dev/null && source <(helm completion zsh)
-# compdef _argocd argocd
-# source <(argocd completion zsh)
-# autoload -U compinit
-# compinit -i
-# source <(kubectl completion zsh)
+command -v argocd &> /dev/null && compdef _argocd argocd && source <(argocd completion zsh)
+
 
 source $ZSH/oh-my-zsh.sh
 source ~/.bashrc
-# User configuration
-
-#argo completion
-# compdef _argocd argocd
-# source <(argocd completion zsh)
 
 # Auto Jump
 autoload -U compinit && compinit -u 
