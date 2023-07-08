@@ -56,8 +56,8 @@ cp .tmux/.tmux.conf.local .
 ## Dotfile Configuration
 This repository contains additional plugins for zsh. Clone the repository and run the installation script:
 ```
-git clone https://github.com/PhantomPixelist/dot_files.git 
-cd dotfiles
+git clone https://github.com/PhantomPixelist/dot_files.git
+cd dot_files
 cp -r zsh/scripts/zsh-autosuggestions/ ~/.oh-my-zsh/custom/plugins/ && cp -r zsh/scripts/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/
 bash install
 ```
