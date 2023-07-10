@@ -34,6 +34,7 @@ Another option to install is by running manually the commands:
 ```
 sudo apt-get update 
 sudo apt install curl -y 
+sudo apt-get install ripgrep
 sudo snap install nvim --classic 
 sudo apt install tmux -y 
 sudo apt install fzf 
