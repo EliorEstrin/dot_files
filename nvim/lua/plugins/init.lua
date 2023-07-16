@@ -4,7 +4,6 @@
 -- See the kickstart.nvim README for more information
 return {
 
-
   -- UntoTree Plugin
   'mbbill/undotree',
 
@@ -15,6 +14,13 @@ return {
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
 
+  -- { -- Imrpoved Yank
+  --     "arsham/yanker.nvim",
+  --   dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim" },
+  --   -- config = true,
+  --   -- or to provide configurations
+  --   config = { history = "<leader>yh" },
+  -- },
 
   { -- Autocompletion
     'hrsh7th/nvim-cmp',
