@@ -3,6 +3,8 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+
+
   -- UntoTree Plugin
   'mbbill/undotree',
 
@@ -12,6 +14,7 @@ return {
 
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
+
 
   { -- Autocompletion
     'hrsh7th/nvim-cmp',
@@ -31,6 +34,16 @@ return {
         changedelete = { text = '~' },
       },
     },
+  },
+
+  { -- Highlight, edit, and navigate code
+    'nvim-treesitter/nvim-treesitter',
+    dependencies = {
+      'nvim-treesitter/nvim-treesitter-textobjects',
+    },
+    config = function()
+      pcall(require('nvim-treesitter.install').update { with_sync = true })
+    end,
   },
 
   { -- Theme inspired by Atom
