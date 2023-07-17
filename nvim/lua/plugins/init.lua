@@ -15,11 +15,11 @@ return {
   'tpope/vim-sleuth',
 
   -- { -- Imrpoved Yank
-  --     "arsham/yanker.nvim",
-  --   dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim" },
-  --   -- config = true,
-  --   -- or to provide configurations
-  --   config = { history = "<leader>yh" },
+  -- "arsham/yanker.nvim",
+  -- dependencies = { "arsham/arshlib.nvim", "junegunn/fzf.vim", "junegunn/fzf" },
+  -- -- config = true,
+  -- -- or to provide configurations
+  -- config = { history = "<leader>yh" },
   -- },
 
   { -- Autocompletion
