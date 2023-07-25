@@ -4,6 +4,7 @@
 -- See the kickstart.nvim README for more information
 return {
 
+
   -- UntoTree Plugin
   'mbbill/undotree',
 
@@ -22,6 +23,13 @@ return {
   -- config = { history = "<leader>yh" },
   -- },
 
+  {
+    -- terminal plugin
+    {'akinsho/toggleterm.nvim', version = "*", config = true}
+    -- -- or
+    -- {'akinsho/toggleterm.nvim', version = "*", opts = {--[[ things you want to change go here]]}}
+  },
+  
   { -- Autocompletion
     'hrsh7th/nvim-cmp',
     dependencies = { 'hrsh7th/cmp-nvim-lsp', 'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip' },
