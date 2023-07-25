@@ -88,3 +88,8 @@ https://github.com/romkatv/powerlevel10k#fonts
 
 ### The end
 you should open alacritty terminal and everything should work.
+
+
+### ToDo
+ - [ ] add lazygit installation to script - must have for neovim to work
+
