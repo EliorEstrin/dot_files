@@ -26,10 +26,14 @@ return {
   {
     -- terminal plugin
     {'akinsho/toggleterm.nvim', version = "*", config = true}
-    -- -- or
-    -- {'akinsho/toggleterm.nvim', version = "*", opts = {--[[ things you want to change go here]]}}
   },
-  
+
+  { -- Linter
+    'jose-elias-alvarez/null-ls.nvim',
+    dependencies = {"nvim-lua/plenary.nvim"},
+  },
+
+
   { -- Autocompletion
     'hrsh7th/nvim-cmp',
     dependencies = { 'hrsh7th/cmp-nvim-lsp', 'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip' },
