@@ -17,6 +17,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 ### [aliases] ###
 alias vim="nvim"
+alias lg="lazygit"
 #test -f /opt/coreutils/bin/ls && alias ls="/opt/coreutils/bin/ls"
 alias clip='xclip -selection clipboard'
 alias tmux='tmux -u'
