@@ -13,6 +13,8 @@ Here is the process of configuring a **new** ubuntu system The way I like it:
 ### Single Command Installation
 **Note**: Execute with caution. Installation is performed at your own risk.
 
+
+## WARNING: Running This Command will overide your .bashrc configuration and should be run with caution!!!
 ```
 git clone 'https://github.com/PhantomPixelist/dot_files' && \
 cd dot_files && \ 
