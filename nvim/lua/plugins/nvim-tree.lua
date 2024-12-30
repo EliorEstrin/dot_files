@@ -32,6 +32,11 @@ return {
             enable = true,
             update_cwd = true,
          },
+
+      filters = {
+        enable = true,
+        git_ignored = false,
+      },
     }
   end,
   },
