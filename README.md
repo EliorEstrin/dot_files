@@ -93,5 +93,6 @@ you should open alacritty terminal and everything should work.
 
 
 ### ToDo
+ - [ ] NVIM does not work out of the box should be fixed
  - [ ] add lazygit installation to script - must have for neovim to work
 
