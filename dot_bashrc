@@ -55,10 +55,6 @@ function parse_git_dirty {
   fi
 }
 export PS1="\[\e[36m\]\W\[\e[m\]\[\e[32m\]\`parse_git_branch\`\[\e[m\] $ "
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
 
 
 
-complete -C /home/linuxbrew/.linuxbrew/Cellar/terragrunt/0.67.14/bin/terragrunt terragrunt
