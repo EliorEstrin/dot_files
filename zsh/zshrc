@@ -52,7 +52,7 @@ export NVM_DIR="$HOME/.nvm" || :
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" || :  # This loads nvm bash_completion
 export TERM=xterm
 source ~/.bashrc
-source ~/.bash_aliases
+#source ~/.bash_aliases
 
 alias tmux=tmux -2
 alias vi=nvim
@@ -61,6 +61,5 @@ alias vim=nvim
 
 mkfile() { mkdir -p -- "$1" && touch -- "$1"/"$2" }
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 complete -o nospace -C /home/linuxbrew/.linuxbrew/Cellar/terragrunt/0.67.14/bin/terragrunt terragrunt
