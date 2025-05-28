@@ -29,16 +29,6 @@ return {
     {'akinsho/toggleterm.nvim', version = "*", config = true}
   },
 
-  { -- Linter
-    'jose-elias-alvarez/null-ls.nvim',
-    dependencies = {"nvim-lua/plenary.nvim"},
-  },
-
-
-  { -- Autocompletion
-    'hrsh7th/nvim-cmp',
-    dependencies = { 'hrsh7th/cmp-nvim-lsp', 'L3MON4D3/LuaSnip', 'saadparwaiz1/cmp_luasnip' },
-  },
   -- Useful plugin to show you pending keybinds.
   { 'folke/which-key.nvim', opts = {} },
   { -- Adds git releated signs to the gutter, as well as utilities for managing changes
